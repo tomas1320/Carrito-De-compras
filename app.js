@@ -1,9 +1,9 @@
 // Datos de ejemplo (puedes agregar más)
 const productos = [
-  { id: 1, nombre: "Polo Boxy Fit - Oscuro", precio: 74900, img: "https://http2.mlstatic.com/D_NQ_NP_944508-MLA82126788149_012025-O.webp" , ultimo: true},
-  { id: 2, nombre: "Polo Boxy Fit - Claro", precio: 74900, img: "https://tse4.mm.bing.net/th/id/OIP.QvD52sf02_K9JZD9jSJjBwHaJ3?pid=Api&P=0&h=180", ultimo: true},
-  { id: 3, nombre: "Buzo Oversize", precio: 129900, img: "https://d22fxaf9t8d39k.cloudfront.net/a3c1db15aa4f8eb4d732b6c43f75509c0328b18530b4d4881dc8dae0ddc092145539.jpg"},
-  { id: 4, nombre: "Campera Puffer", precio: 349900, img: "https://http2.mlstatic.com/D_NQ_NP_740676-MLA83210430253_032025-O.webp"}
+  { id: 1, nombre: "CAMPERA PUFFER", precio: 129900, img: "https://http2.mlstatic.com/D_NQ_NP_944508-MLA82126788149_012025-O.webp" , ultimo: true},
+  { id: 2, nombre: " REMERA BOXY FIT", precio: 35990, img: "https://tse4.mm.bing.net/th/id/OIP.QvD52sf02_K9JZD9jSJjBwHaJ3?pid=Api&P=0&h=180", ultimo: true},
+  { id: 3, nombre: "REMERA BOXY FIT", precio: 35990, img: "https://d22fxaf9t8d39k.cloudfront.net/a3c1db15aa4f8eb4d732b6c43f75509c0328b18530b4d4881dc8dae0ddc092145539.jpg"},
+  { id: 4, nombre: "BUZO OVERZISE", precio: 70990, img: "https://http2.mlstatic.com/D_NQ_NP_740676-MLA83210430253_032025-O.webp"}
 ];
 
 let carrito = JSON.parse(localStorage.getItem("tn_carrito")) || [];
